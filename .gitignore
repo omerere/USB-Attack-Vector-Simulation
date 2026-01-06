@@ -1,0 +1,19 @@
+# Ignore captured logs
+key_log.txt
+
+# Ignore virtual environments
+.venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore build artifacts (EXEs)
+dist/
+build/
+*.exe
+*.spec
+
+# Ignore sensitive configuration
+config.py

